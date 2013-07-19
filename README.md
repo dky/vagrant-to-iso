@@ -9,5 +9,5 @@ Use this to build custom kickstart iso's when we need to do hands off installs.
 - cdbuild.sh script is small script to: 
 	- Mount iso 
 	- Copy contents to a build directory 
-	- Copy isolinux.cfg   and 
+	- Copy custom isolinux.cfg to new iso build directory
 	- Create a new iso file and drop into /vagrant
