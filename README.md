@@ -11,3 +11,7 @@ Use this to build custom kickstart iso's when we need to do hands off installs.
 	- Copy contents to a build directory 
 	- Copy custom isolinux.cfg to new iso build directory
 	- Create a new iso file and drop into /vagrant
+	- Run this if you just want a one-off custom cd
+- statcip.sh script is used to:
+	- Create iso file's with static IP addresses for specifc sites
+	- Used to label iso files for more than one cd creation
